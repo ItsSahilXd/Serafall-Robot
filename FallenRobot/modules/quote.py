@@ -13,7 +13,7 @@ function doPost(e) {
       // If the user sends the /quote command
       if (msg.text == '/quote') {
         var url =
-          'https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand';
+          'https://www.less-real.com/';
         var data = UrlFetchApp.fetch(url);
         var posts = JSON.parse(data);
         var post = posts.shift();
