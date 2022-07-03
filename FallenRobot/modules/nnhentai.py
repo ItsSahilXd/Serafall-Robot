@@ -1,6 +1,6 @@
 from nhentai import Nhentai
 import requests
-From FallenRobot import pbot
+from FallenRobot import pbot
 
 bot = botogram.create("TOKEN")
 
