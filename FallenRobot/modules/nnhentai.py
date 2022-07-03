@@ -2,7 +2,6 @@ from nhentai import Nhentai
 import requests
 from FallenRobot import pbot
 
-bot = botogram.create("TOKEN")
 
 @bot.command("search")
 def search_command(chat, message, args):
